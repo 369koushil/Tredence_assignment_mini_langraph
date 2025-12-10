@@ -85,7 +85,6 @@ A simple WebSocket endpoint is provided to stream node-by-node execution logs in
 ### Create Example Workflow
 
 ```
-POST /graph/create_example/code_review
 POST /graph/create_example/data_quality
 ```
 
@@ -120,8 +119,7 @@ ws://127.0.0.1:8000/ws/logs/{run_id}
 
 ## What I Would Improve With More Time
 
-* Persistent storage (SQLite) instead of in-memory store.
-* Richer logging with timestamps and error details.
+* Persistent storage instead of in-memory store.
 * Better condition evaluator with a safe expression parser.
 * More example workflows demonstrating branching and tooling integrations.
 * A small frontend to visualize workflow execution.
