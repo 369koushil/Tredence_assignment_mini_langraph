@@ -1,6 +1,6 @@
 # Agent Workflow Engine (FastAPI)
 
-This project implements a small workflow/graph execution engine using FastAPI, designed as part of an AI Engineering internship assignment. The engine supports node-based execution, shared state updates, conditional branch transitions, looping, and asynchronous execution. A WebSocket endpoint is included for simple real-time log streaming.
+This project implements a small graph execution engine using FastAPI. The engine supports node-based execution, shared state updates, conditional branch transitions, looping, and asynchronous execution. A WebSocket endpoint is included for simple real-time log streaming.
 
 ---
 
@@ -121,7 +121,6 @@ ws://127.0.0.1:8000/ws/logs/{run_id}
 
 * Persistent storage instead of in-memory store.
 * Better condition evaluator with a safe expression parser.
-* More example workflows demonstrating branching and tooling integrations.
 * A small frontend to visualize workflow execution.
 
 ---
