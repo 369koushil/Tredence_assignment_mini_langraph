@@ -110,8 +110,8 @@ example
 {
   "graph_id": "a72d2e0a-60a2-4443-ba0e-8de6f8b41f8b",
    "initial_state": {
-    "data": [10, 12, 111, 113, 1010, 91, 12],
-    "threshold": 
+    "data": [10, 12, 111, 113, 10, 91, 12],
+    "threshold": 0.2
   }
 }
 ```
